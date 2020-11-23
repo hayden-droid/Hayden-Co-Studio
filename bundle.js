@@ -148,7 +148,7 @@ module.exports = {
 
         layout.registerComponent( 'game', function( container, componentState ){
             console.log('created game component swag');
-            container.getElement().html( '<h2>ur not supposed to see me btw</h2>' );
+            container.getElement().html( '<h2>ur not supposed to see me btw now Fuck Off.</h2>' );
             window.gameInstance = UnityLoader.instantiate(container.getElement()[0], "unity_build/Build/unity_build.json");
             container.getElement().find('canvas').attr('tabindex', '1');
             
